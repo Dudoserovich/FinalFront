@@ -1,0 +1,22 @@
+{
+  "event": [
+    {"id": 1, "title": "1", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"},
+    {"id": 2, "title": "2", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"},
+    {"id": 3, "title": "3", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"}
+  ],
+  "concerts": [
+    {"id": 1, "title": "1", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"},
+    {"id": 2, "title": "2", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"},
+    {"id": 3, "title": "3", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"}
+  ],
+  "portraits": [
+    {"id": 1, "title": "1", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"},
+    {"id": 2, "title": "2", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"},
+    {"id": 3, "title": "3", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"}
+  ],
+  "cheel": [
+    {"id": 1, "title": "1", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"},
+    {"id": 2, "title": "2", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"},
+    {"id": 3, "title": "3", "url":  "https://sun9-88.userapi.com/impg/0weQLCFsA-CmWZ1ud0xoIponIgImgl9BkMgvxA/NAIJh9ZQogo.jpg?size=984x681&quality=96&sign=5458601a86cdbc764506aff96c21c7e2&type=album"}
+  ]
+}

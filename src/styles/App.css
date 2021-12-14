@@ -1,0 +1,189 @@
+h1 {
+    color: rgba(0, 0, 0, 0.78);
+    text-align: center;
+}
+
+html {
+    background-color: #212529;
+    color: aliceblue;
+}
+
+#root {
+    background-color: #212529;
+    color: aliceblue;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-collapse.collapse.show {
+    justify-content: center;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid blue;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.albums {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    align-items: center;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.text-albums {
+    text-align: center;
+}
+
+.photo {
+    height: 25vw;
+    border-radius: 5px;
+}
+
+.album :not(:first-child) {
+    display: none;
+}
+
+.album :first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.album :first-child:hover {
+    transform: scale(1.1);
+}
+
+.album :nth-child(1) .photo {
+    display: flex;
+}
+
+.show > .navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+}
+
+.center {
+    justify-content: center!important;
+}
+
+.img-fluid {
+    height: 30vw!important;
+}
+
+.figure {
+    display: contents!important;
+}
+
+.modal-album {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 5vw 0.2fr;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+    background-color: rgba(0, 0, 0, 0.76);
+    overflow-y: auto;
+}
+
+.modal-album * {
+    padding: 10px;
+}
+
+.modal-album :first-child {
+    cursor: default;
+}
+
+.modal-album *:hover {
+    transform: scale(1)!important;
+}
+
+.modal-album :not(:first-child) {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-album p.text-albums {
+    display: none;
+}
+
+.nameAlbum {
+    font-size: 2.5vw;
+    grid-column: 1/2;
+    grid-row: 1/1;
+    text-shadow: black 0 0 1px;
+}
+
+.cross {
+    font-size: 30px;
+    color: #ffffff6b;
+    justify-self: self-end;
+    padding-bottom: 25px;
+    cursor: pointer;
+    grid-row: 1/1;
+    transition: all 0.3s ease-in;
+}
+
+.cross:hover {
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+#btn-to-top {
+    position: fixed;
+    color: #ffffff6b;
+    bottom: 5px;
+    right: 27px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    font-size: 30px;
+}
+
+#btn-to-top:hover {
+    color: #ffffff;
+}
